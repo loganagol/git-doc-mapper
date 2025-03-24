@@ -1,0 +1,13 @@
+[general]
+default_username =
+map_filename = .gitdocmap.json
+
+[urls]
+; to use commands that depend on webservice integration (push, pull), a url and 
+; webservice id key must both be added and the keys for both must match
+dev = https://example.com/fmaxdev/
+trn = https://example.com/fmaxtrn/
+
+[webservice_ids]
+dev = 1021
+trn = 1050
